@@ -1,6 +1,6 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
- * 2018-05-20 21:35:51 */
+ * 2018-05-21 18:21:16 */
 
 /*Size page container*/
 @media (min-width: 1200px){
@@ -35,7 +35,7 @@
 
 /*Header*/
 .header-container.type4.header-newskin .header-wrapper {
-    border: 0 !important;
+    border-bottom: 1px solid #eaeaea !important;
     margin-bottom: 0 !important;
     background-color: #fff !important;
 }
@@ -181,9 +181,34 @@ a.quickview-icon {
     text-transform: uppercase;
 }*/
 
+.product-view .add-to-links a {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    margin-left: 8px;
+    /*border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;*/
+}
 
 
-
+/*Separadores*/
+.separador-title{
+    font-family: 'open Sans';
+    font-size: 25px;
+    font-weight: 300;
+    color:#c5c5c5;
+}
+.separador-text{
+    font-family: 'open Sans';
+    font-size: 13px;
+    font-weight: 400;
+    color: #e4e4e4; 
+    padding-right: 5px;
+}
 
 /***********************************Default CSS***************************/
 
@@ -486,6 +511,7 @@ div.filter-title, h2.filter-title {
 .parallax-slider .content {
     text-align: center;
 }
+/*
 .parallax-slider .content h2 {
     font-family: 'Oswald';
     font-size: 55px;
@@ -495,7 +521,7 @@ div.filter-title, h2.filter-title {
     text-transform: uppercase;
     line-height: 1;
     margin-bottom: 12px;
-}
+}*/
 .parallax-slider .content span {
     font-size: 16px;
     color: #fff;
