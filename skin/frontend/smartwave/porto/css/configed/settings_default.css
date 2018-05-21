@@ -1,6 +1,6 @@
 /**
  * WARNING: Do not change this file. Your changes will be lost.
- * 2018-05-21 18:21:16 */
+ * 2018-05-21 19:11:59 */
 
 /*Size page container*/
 @media (min-width: 1200px){
@@ -13,6 +13,12 @@
 @media (max-width: 991px){
 .header-container.type4.header-newskin .header .logo img {
     height: auto;
+}
+}
+@media (min-width: 768px){
+.footer-bottom .custom-block.f-right {
+    max-width: 720px !important;
+    font-size: 11px !important;
 }
 }
 
@@ -96,9 +102,16 @@
     text-transform: none !important;
     color: #460098 !important;
 }
+/*Grid de produtos rodapé homepage*/
+div.filter-title .content, h2.filter-title .content {
+    background-color: #fff;
+    padding-right: 20px;
+    display: inline;
+    color: #460098 !important;
+}
 
 
-/***Carroussel de produtos HomePage*****/
+/*Carroussel de produtos HomePage*/
 
 /*Produto Imagem e Hover*/
 .filter-products .products div.item .product-image {
@@ -210,6 +223,9 @@ a.quickview-icon {
     padding-right: 5px;
 }
 
+
+
+
 /***********************************Default CSS***************************/
 
 select {
@@ -257,7 +273,7 @@ select {
 /*Barra de Busca*/
 .header .form-search {
     border-radius: 4px !important;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     /*width: 120%;*/
 }
 .header-container.type3.header-newskin .header .form-search #search {
@@ -1339,9 +1355,9 @@ a.addtowishlist:hover, .link-wishlist:hover, a.comparelink:hover, .link-compare:
     margin-top: 18px;
 }
 .footer-middle .block .block-title strong {
-    font-family: 'Oswald';
+    font-family: 'Open Sans';
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .footer-middle a {
