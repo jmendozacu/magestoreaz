@@ -1,0 +1,13 @@
+<?php $_helper = Mage::helper('catalog/category') ?>
+<?php $_categories = $_helper->getStoreCategories() ?>
+<?php if (count($_categories) > 0): ?>
+    <ul>
+        <?php foreach($_categories as $_category): ?>
+            <li class="list-categories-menu-department">
+                <a href="<?php echo $_helper->getCategoryUrl($_category) ?>">
+                    <?php echo $_category->getName() ?>
+                </a>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+<?php endif; ?>
